@@ -1,2 +1,1 @@
-# morning-exercises
-Morning Exercises
+## Morning Exercises
