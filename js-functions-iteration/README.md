@@ -30,7 +30,7 @@ JavaScript's built-in iteration methods look like `arr.forEach(callback)` or `ar
 
 
 
-1. Write a function called `partition` that takes in an array and another function (a callback).  The callback should take in an element and an index and return `true` or `false`. `partition` should split the array into two groups: one whose elements all resulted in `true` and one whose elements all resulted in `false`. It should return a new array with the two groups nested inside.
+2. Write a function called `partition` that takes in an array and another function (a callback).  The callback should take in an element and an index and return `true` or `false`. `partition` should split the array into two groups: one whose elements all resulted in `true` and one whose elements all resulted in `false`. It should return a new array with the two groups nested inside.
 
     ```js
     // starter structure for our partition
@@ -54,7 +54,7 @@ JavaScript's built-in iteration methods look like `arr.forEach(callback)` or `ar
 
 
 
-1. Write a function called `pluck` that takes in an array of objects and a string that is one of their keys. `pluck` should iterate through the array, pick out the value each object has associated with the given key, and return a new array containing those values.  This iteration method won't use a callback.
+3. Write a function called `pluck` that takes in an array of objects and a string that is one of their keys. `pluck` should iterate through the array, pick out the value each object has associated with the given key, and return a new array containing those values.  This iteration method won't use a callback.
 
     ```js
     // starter structure for our pluck
@@ -79,8 +79,7 @@ JavaScript's built-in iteration methods look like `arr.forEach(callback)` or `ar
     ```
 
 
-
-1. `getPairs(names)`
+4. `getPairs(names)`
 
     Write a function called `getPairs` that takes in an array of names and outputs random pairs of names. How could you use this to generate pairs of students for pair programming?
 
@@ -94,3 +93,61 @@ JavaScript's built-in iteration methods look like `arr.forEach(callback)` or `ar
     // returns [["Emily A", "Ling"], ["Franchesca", "Jason"] , ["Johnny"]]
     ```
 
+
+5. Write a function to swap to values at two different indicies in an array.
+
+```
+var swap = function (arr, indexOne, indexTwo) {
+  // swap values 
+
+  return arr;
+};
+
+swap(["moe", "larry", "curly"], 0, 2);
+// => ["curly", "larry", "moe"]
+```
+
+
+6. Write a function to generate a random number in a specified range.
+
+```
+var getRand = function (low, high) {
+  // your work
+
+  return randNum;
+};
+
+getRand(5, 6)
+// => 5 or 6
+getRand(5, 10)
+// => 6 or some other num between 5 and 10
+```
+
+
+7. Write a function to create a specified number of random numbers from 1 to 100 in an array.
+
+```
+var randArr = function (size) {
+  // your work;
+
+  return arr; 
+}
+
+randArr(3)
+//=> [23, 11, 82];
+randArr(2)
+//=> [88, 42];
+```
+
+
+8. Write a function to find the maximum number in an array.
+
+```
+var getMax = function (arr) {
+  // your work
+  
+  return max;
+}
+
+getMax([1,2,88, 34, 22])
+```
