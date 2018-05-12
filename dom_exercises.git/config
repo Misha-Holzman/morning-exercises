@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/celestelayne/dom_exercises.git
+[remote "enterprise"]
+	url = https://git.generalassemb.ly/layne/dom_exercises.git
+	fetch = +refs/heads/*:refs/remotes/enterprise/*

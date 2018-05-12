@@ -77,3 +77,20 @@ JavaScript's built-in iteration methods look like `arr.forEach(callback)` or `ar
     pluck(grandparents, 'first');
     // returns ["June", "Jim", "Linda", "Panfilo"]
     ```
+
+
+
+1. `getPairs(names)`
+
+    Write a function called `getPairs` that takes in an array of names and outputs random pairs of names. How could you use this to generate pairs of students for pair programming?
+
+    ```js
+    // Example of getPairs!
+
+    // set up names argument
+    var students = ["Johnny", "Emily A", "Ling", "Jason", "Franchesca"];
+    // call getPairs function
+    getPair(students);
+    // returns [["Emily A", "Ling"], ["Franchesca", "Jason"] , ["Johnny"]]
+    ```
+
