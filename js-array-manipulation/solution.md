@@ -38,8 +38,7 @@
 
 1. Use for to print out each fruit from the list.
    ```js
-  var fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry",
-"Fig", "Guava", "Huckleberry", "Ice plant", "Jackfruit"];
+  let fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Fig", "Guava", "Huckleberry", "Ice plant", "Jackfruit"];
 
    fruits.forEach(function(element) {
      console.log(element);
@@ -50,9 +49,28 @@
    ```js
    fruits.reverse();
 
-   for (var i = 0; i < fruits.length; i++) {
-       var item = fruits[i];
+   for (let i = 0; i < fruits.length; i++) {
+       let item = fruits[i];
        console.log(item);
    }
    ```
 
+## Challenge 3
+
+1. Use forEach to print each character in the list of famous cartoon dogs.
+   ```js
+   let dogs = ['Snoopy', 'Scooby', 'Pluto', 'Goofy', 'Astro', 'Mr. Peabody', 'Odie', "Santa's Little Helper", 'Brian'];
+
+   dogs.forEach(function(element) {
+     console.log(element);
+   });
+   ```
+
+## Challenge 4
+
+1. Use forEach and String.toUpperCase method to convert the list of characters into all capitals. That is, you should replace each character in the array with an all UPPERCASE version of that character's name.
+   ```js
+   dogs.map(function(dog){ return dog.toUpperCase() })
+   ```
+
+_Use console.log(dogs) to verify your solution has changed the dogs array._
