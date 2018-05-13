@@ -124,7 +124,7 @@ getRand(5, 10)
 ```
 
 
-7. Write a function to create a specified number of random numbers from 1 to 100 in an array.
+7. Write a function to create a specified number of random numbers from `1` to `100` in an array.
 
 ```
 var randArr = function (size) {
