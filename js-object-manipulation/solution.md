@@ -1,12 +1,12 @@
 1. Read and console log the following:
 
   * the array that contains all the student club data
-  
   ```js
   clubs
   ```
+
   * the number of clubs
-    ```js
+   ```js
    clubs.length
    ```
 

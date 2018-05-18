@@ -36,7 +36,7 @@
 
 ## Challenge 2
 
-1. Use for to print out each fruit from the list.
+1. Use `for` to print out each fruit from the list.
    ```js
    let fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Fig", "Guava", "Huckleberry", "Ice plant", "Jackfruit"];
 

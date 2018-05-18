@@ -94,7 +94,7 @@ JavaScript's built-in iteration methods look like `arr.forEach(callback)` or `ar
     ```
 
 
-5. Write a function to swap to values at two different indicies in an array.
+5. Write a function to swap two values at two different indicies in an array.
 
 ```
 var swap = function (arr, indexOne, indexTwo) {
