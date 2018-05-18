@@ -96,4 +96,5 @@
 9. `addUpAllAges` – add up all the ages in an array of objects
    
    ```js
+   [{name: 'Carl', age: 30}, {name: 'Cara', age: 10}, {name: 'Carmen', age: 15}].reduce((sum, item) => {console.log(sum, item); return sum.age + item.age})
    ```
