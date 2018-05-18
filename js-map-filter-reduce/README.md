@@ -1,6 +1,6 @@
 # More JavaScript Iterators
 
-## `.map()`
+## `.map()` [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 Write code using `.map()` to have the following input and output:
 
 - `getSquares` – takes in an array of numbers and returns an array of their squares
@@ -9,7 +9,7 @@ Write code using `.map()` to have the following input and output:
 - `isDivisibleBy3` – takes in an array of numbers and returns an array of booleans indicating whether each element is divisible by 3
   - ex: `isDivisibleBy3[1, 3, 4, 6, 7, 8, 9] => [false, true, false, true, false, false true]`
 
-## `.filter()`
+## `.filter()` [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 Write code using `.filter()` to have the following input and output:
 
 - `getOdds` – takes in an array of numbers and returns an array of only odd numbers
@@ -21,7 +21,7 @@ Write code using `.filter()` to have the following input and output:
 - `getDivisibleBy4` – takes in an array of numbers and returns an array of only numbers that are divisible by 4
   - ex: `getDivisibleBy4([1, 4, 6, 8, 12, 13]) => [4, 8, 12]`
 
-## `.reduce()`
+## `.reduce()` [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 Write code using `.reduce()` to have the following input and output:
 
 - `addUpAll` – add up all numbers in a given array
