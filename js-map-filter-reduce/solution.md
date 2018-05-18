@@ -1,4 +1,4 @@
-## `.map()` allows you to cycle through a list (aka array) and perform an operation on each item while leaving the original list in tact.
+## `.map()`
 
 1. `getSquares` – takes in an array of numbers and returns an array of their squares.
 
@@ -25,7 +25,7 @@
    }
    isDivisibleBy3([1, 3, 4, 6, 7, 8, 9])
    ```
-## `.filter()` allows you to 
+## `.filter()`
 
 3. `getOdds` – takes in an array of numbers and returns an array of only odd numbers
 
@@ -57,4 +57,43 @@
        })
    }
    getDivisibleBy4([1, 4, 6, 8, 12, 13])
+   ```
+
+## `.reduce()`
+
+6. `addUpAll` – add up all numbers in a given array
+
+   ```js
+   const addUpAll = (arr) => {
+       return arr.reduce(function(a, b){
+           return a + b
+       })
+   }
+   addUpAll([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+   ```
+
+7. `multiplyAllNums` – multiply all numbers in a given array
+
+   ```js
+   const multiplyAllNums = (arr) => {
+       return arr.reduce(function(a, b){
+           return a * b
+       })
+   }
+   multiplyAllNums([1, 2, 3, 4, 5])
+   ```
+
+8. `squareAllNums` – power up all numbers in a given array
+   ```js
+   const squareAllNums = (arr) => {
+       return arr.reduce(function(acc, val){
+           return Math.pow(acc, val)
+       })
+   }
+   squareAllNums([3, 2, 3])
+   ```
+
+9. `addUpAllAges` – add up all the ages in an array of objects
+   
+   ```js
    ```
