@@ -7,7 +7,7 @@ Write code using `.map()` to have the following input and output:
   - ex: `getSquares([1, 2, 3, 4, 5]) => [1, 4, 9, 16, 25]`
 
 - `isDivisibleBy3` – takes in an array of numbers and returns an array of booleans indicating whether each element is divisible by 3
-  - ex: `isDivisibleBy3[1, 3, 4, 6, 7, 8, 9] => [false, true, false, true, false, false true]`
+  - ex: `isDivisibleBy3([1, 3, 4, 6, 7, 8, 9]) => [false, true, false, true, false, false true]`
 
 ## `.filter()` [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 Write code using `.filter()` to have the following input and output:
