@@ -1,4 +1,4 @@
-# HOMEWORK: TRANSFORMERS: Robots in Disguise!
+# TRANSFORMERS: Robots in Disguise!
 
 ![](./assets/devastator.gif)
 
