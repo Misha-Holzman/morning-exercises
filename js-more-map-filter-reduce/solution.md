@@ -23,7 +23,7 @@
        return {name: robot.name,
                photo: robot.photo}
    }).forEach(element => { // < woot! woot! you can chain the loop function 
-       console.log(element)
+       console.log(element);
        // grab the body element from the DOM
        let body = document.querySelector("body");
        // create the img and photo elements
@@ -31,8 +31,8 @@
        let photo = document.createElement('img');
        // add content to the elements
        name.textContent = element.name;
-       photo.src = element.photo
-       // append to the DOM
+       photo.src = element.photo;
+       // append elements to the DOM
        body.appendChild(name);
        body.appendChild(photo);
    });

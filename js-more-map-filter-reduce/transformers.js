@@ -58,3 +58,65 @@ const transformers = [
     photo: 'http://tfwiki.net/mediawiki/images2/thumb/f/f6/SpotlightHotRod-HotRodcvrAexcerpt.jpg/470px-SpotlightHotRod-HotRodcvrAexcerpt.jpg',
   }
 ];
+
+/**
+ * PART 2
+ *
+ * Reduce the Constructicons to form Devastator!
+ * The Devastator object should look like this:
+ {
+    name: 'Devastator',
+    team: 'Decepticons',
+    form: {
+      rightLeg: 'Scrapper',
+      upperTorso: 'Hook',
+      leftArm: 'Bonecrusher',
+      rightArm: 'Scavenger',
+      leftLeg: 'Mixmaster',
+      lowerTorso: 'Long Haul',
+     },
+    }
+  * Remember, when using `reduce`, you can pass in two
+  * arguments: the callback and the initial value of the
+  * accumulator. How can you leverage this to create the
+  * initial structure of the Devastator object?
+ */
+
+const constructicons = [
+  {
+    name: 'Scrapper',
+    form: 'Freightliner Truck',
+    team: 'Decepticon',
+    bodyPart: 'rightLeg'
+  },
+  {
+    name: 'Hook',
+    form: 'Mobile Crane',
+    team: 'Decepticon',
+    bodyPart: 'upperTorso'
+  },
+  {
+    name: 'Bonecrusher',
+    form: 'Bulldozer',
+    team: 'Decepticon',
+    bodyPart: 'leftArm'
+  },
+  {
+    name: 'Scavenger',
+    form: 'Excavator',
+    team: 'Decepticon',
+    bodyPart: 'rightArm'
+  },
+  {
+    name: 'Mixmaster',
+    form: 'Concrete Mixer',
+    team: 'Decepticon',
+    bodyPart: 'leftLeg'
+  },
+  {
+    name: 'Long Haul',
+    form: 'Dump Truck',
+    team: 'Decepticon',
+    bodyPart: 'lowerTorso'
+  }
+];
