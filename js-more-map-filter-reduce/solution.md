@@ -1,3 +1,5 @@
+// PART 1
+
 1. Use `map` to return a new array of transformers' names.
 
    ```js
@@ -36,4 +38,22 @@
        body.appendChild(name);
        body.appendChild(photo);
    });
+   ```
+// PART 2
+
+1. Reduce the Constructicons to form Devastator!
+
+   ```js
+   const createDevastator = (arr) => {
+   //  First argument is our reducer/callback function
+      return arr.reduce((acc, val, idx) => {
+           acc.name = 'Devastator',
+           acc.team = val.team,
+           acc.form[val.bodyPart] = val.name
+           //  Always return the accumulator (for the next iteration)
+           return acc;
+      }, {form: {}}) // The 2nd argument (optional) is the initial value
+   }
+   createDevastator(constructicons)
+   })
    ```
