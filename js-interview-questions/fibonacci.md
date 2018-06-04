@@ -29,7 +29,7 @@ A tiling with squares whose side lengths are successive Fibonacci numbers
    fibonacci(5)
    ```
     
-    ### Ehsanul's Solution (using a while loop)
+    ### Ryan's Solution (using a while loop)
    ```js
     const fibbonacci = n => {
         let arr = [0];
