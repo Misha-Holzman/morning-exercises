@@ -1,5 +1,7 @@
 # Factorial
 
+![Factorial](http://cfile28.uf.tistory.com/image/262DD03C589D5AD50856F0)
+
 In mathematics, the factorial of a non-negative integer `n`, 
 denoted by `n!`, is the product of all positive integers less 
 than or equal to `n`. For example:
@@ -25,7 +27,7 @@ than or equal to `n`. For example:
 
 ![Inception](https://media.giphy.com/media/7pHTiZYbAoq40/giphy.gif)
 
-Simply put, recursion is the ability for a function to call on itself. A function calling itself means that inside the body of the function we will have a call to the same function. When we use recursion it will go on until it reaches a certain desired state. In some cases we must call the function a fixed amount of times. In other cases it will continue running until a conditional check tells it to stop. Either way, we **MUST** have a well-defined stop condition in order to prevent the recursion running forever (and overheating up your computer).
+Simply put, recursion is the ability for a function to call on itself. A function calling itself means that inside the body of the function we will have a call to the same function. When we use recursion it will go on until it reaches a certain desired state. In some cases we must call the function a fixed amount of times. In other cases it will continue running until a conditional check tells it to stop. Either way, we **MUST** have a well-defined stop condition in order to prevent the recursion from running forever (and overheating your computer).
 
 ## Recursive Solutions (Simon, Jesica & Yaakov)
 
@@ -67,10 +69,16 @@ Simply put, recursion is the ability for a function to call on itself. A functio
    factorial(3); // 6
    ```
 
+## Recursion Deeper Dive
+
+
+
 ## References
+
+##### Learn and Understand Recursion in Javascript
+
+[Medium – Learn and Understand Recursion in Javascript](https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea)
 
 ##### Harvard CS50 Recursion Video (_click on image_)
 
 [![Harvard CS50 Recursion](https://i.ytimg.com/vi/mz6tAJMVmfM/maxresdefault.jpg)](https://youtu.be/mz6tAJMVmfM)
-
-[Wikipedia](https://en.wikipedia.org/wiki/Factorial)
