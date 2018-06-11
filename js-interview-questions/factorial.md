@@ -69,10 +69,6 @@ Simply put, recursion is the ability for a function to call on itself. A functio
    factorial(3); // 6
    ```
 
-## Recursion Deeper Dive
-
-
-
 ## References
 
 ##### Learn and Understand Recursion in Javascript
