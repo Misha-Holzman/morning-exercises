@@ -36,20 +36,19 @@
 
 ## Challenge 2
 
-1. Use `for` to print out each fruit from the list.
+1. Use a `for loop` to print out each fruit from the list.
    ```js
    let fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Fig", "Guava", "Huckleberry", "Ice plant", "Jackfruit"];
 
-   fruits.forEach(function(element) {
-     console.log(element);
-   });
+   for (let i = 0; i < fruits.length; i++) {
+       let item = fruits[i];
+       console.log(item);
+   }
    ```
 
 2. Print the same list items as above, in reverse order.
    ```js
-   fruits.reverse();
-
-   for (let i = 0; i < fruits.length; i++) {
+   for (let i = fruits.length; i >= 0; i--) {
        let item = fruits[i];
        console.log(item);
    }

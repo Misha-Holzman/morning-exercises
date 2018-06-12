@@ -42,12 +42,58 @@
 
     Write a function called `getPairs` that takes in an array of names and outputs random pairs of names. How could you use this to generate pairs of students for pair programming?
 
+    ### Solution
    ```js
-   var students = ["Johnny", "Emily A", "Ling", "Jason", "Franchesca"];
-   var getPairs = function (names){
-      console.log(names)
+   // set up names argument
+   const tesseract_students = ["Yaakov", "Darrell", "Dan", "Ryan", "Raul", "Rachel", "Ehsanul", "Eryl", "Sean", "Andrey", "Akram", "Supreet", "Jae", "Joel", "Simon", "John", "Alvin", "Troy", "Elyas"];
+
+   const getPairs = function(namesArr){
+     let outputArr = [];
+     // pick random pairs and add to the output
+     while (namesArr.length >= 2){
+       outputArr.push([spliceRandom(namesArr), spliceRandom(namesArr)]);
+     }
+     // if we had an odd number, one will be left over
+     // add it to the output alone
+     if (namesArr.length === 1){
+       outputArr.push(namesArr);
+     }
+     return outputArr;
+   };
+
+   // helper function to splice out and return a random value from the array
+   let spliceRandom = function(arr){
+     let randomIndex = Math.random() * arr.length;
+     let randomlyRemoved = arr.splice(randomIndex, 1);
+     return randomlyRemoved[0];
+   };
+   ```
+
+   ### Darrell's Solution
+   ```js
+   // set up names argument
+   const tesseract_students = ["Yaakov", "Darrell", "Dan", "Ryan", "Raul", "Rachel", "Ehsanul", "Eryl", "Sean", "Andrey", "Akram", "Supreet", "Jae", "Joel", "Simon", "John", "Alvin", "Troy", "Elyas"];
+   // call getPairs function
+   function getPairs(arr,n) {
+       let pairsArray = [];
+       function shuffleArray(sourceArray) {
+           for (let i = 0; i < sourceArray.length - 1; i++) {
+               let randIndex = i + Math.floor(Math.random() * (sourceArray.length - i));
+               let temp = sourceArray[randIndex];
+               sourceArray[randIndex] = sourceArray[i];
+               sourceArray[i] = temp;
+           }
+           return sourceArray;
+       }
+       let shufStuds = shuffleArray(arr);
+       while (shufStuds.length > 0) {
+           let xxx = shufStuds.splice(0, n);
+           pairsArray.push(xxx);
+       }
+       return pairsArray;
    }
-   getPairs(students)
+   // console.log(getPairs(students));
+   // console.table(getPairs(tesseract_students,3));
    ```
 
 5. Write a function to swap two values at two different indicies in an array.
