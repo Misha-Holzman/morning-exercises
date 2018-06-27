@@ -24,3 +24,31 @@
     // code in here
    }
    ```
+
+4. Write an efficient function that checks whether any permutation of an input string is a palindrome. A palindrome is a string that's the same when read forward and backward; for example: civic, mom, racecar, kayak
+
+   ```js
+   const isPalindrome = (str) => {
+    // code in here
+   }
+   isPalindrome("civic") // true
+   isPalindrome("civil") // false
+   ```
+
+5. Write a function that takes an array of characters and reverses the letters in-place. An in-place algorithm operates directly on its input and changes it, instead of creating and returning a new object.
+
+   ```js
+   const reverseArrayInPlace = (arr) => {
+    // code in here
+   }
+   ```
+
+6. Write a function `isMagic` that takes in a matrix, represented as an array of arrays of length N and returns true if the matrix is a magic square and false otherwise.
+
+   ```js
+    var isMagic = function(mat) {
+      // code goes here
+    };
+   ```
+
+
